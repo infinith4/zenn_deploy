@@ -39,6 +39,20 @@ Line
 
 Notion
 
+### 家計管理
+
+MoneyForward
+
+### 事業経費管理
+
+freee
+
+### パスワード管理
+
+Bitwarden
+
+
+
 ### 定例会
 
 Ref.
