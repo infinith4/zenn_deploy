@@ -51,7 +51,7 @@ freee
 
 Bitwarden
 
-
+https://excesssecurity.com/bitwarden-organization/
 
 ### 定例会
 
