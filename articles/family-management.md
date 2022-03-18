@@ -26,6 +26,13 @@ todoist
 Google Tasks
 TickTick
 Wrike
+notion
+
+Any.do
+https://タスク管理ツール.com/?p=2118#toc6
+
+Stock
+ノートを取る用
 
 https://www.stock-app.info/media/?p=8189#i-2
 
