@@ -6,7 +6,7 @@ topics: ["family", "management"] # タグ。["markdown", "rust", "aws"]のよう
 published: false # 公開設定（false にすると下書き）
 ---
 
-# 家族が出来た時のためのマネジメントツール
+# ツール
 
 ## 前提条件
 
