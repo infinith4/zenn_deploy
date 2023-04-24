@@ -32,3 +32,7 @@ SELECT	DATEADD(HOUR, -9, CONVERT(datetime, DATEADD(dd, 1, EOMONTH (@InputDate , 
 ```
 2023-02-28 15:00:00.000	2023-03-31 15:00:00.000
 ```
+
+### mac でLocalのSQL　Serverを立てる方法は以下を参照
+
+https://learn.microsoft.com/ja-jp/sql/azure-data-studio/download-azure-data-studio?view=sql-server-ver15&tabs=redhat-install%2Credhat-uninstall
