@@ -1,3 +1,11 @@
+---
+title: "Internet Computer Protocol (ICP) 入門" # 記事のタイトル
+emoji: "🧱" # アイキャッチとして使われる絵文字（1文字だけ）
+type: "tech" # tech: 技術記事 / idea: アイデア記事
+topics: ["web3", "icp", "internet computer protocol"] # タグ。["markdown", "rust", "aws"]のように指定する
+published: true # 公開設定（falseにすると下書き）
+---
+
 # Internet Computer Protocol (ICP) 入門
 
 ## Internet Computer Protocol (ICP) 概要
@@ -33,7 +41,7 @@ Internet Computer Protocol (ICP)は、DFINITYが開発した分散型クラウ�
 
 Mac M1 上でのICPのプロジェクト作成、Local server の起動、Deployまでを実行します。
 
-![svg](./content/web3-icp-quickstart/icp.drawio.svg)
+![svg](./contents/web3-icp-quickstart/icp.drawio.svg)
 
 ### dfx のインストール
 
