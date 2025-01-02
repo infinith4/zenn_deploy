@@ -41,7 +41,7 @@ Internet Computer Protocol (ICP)は、DFINITYが開発した分散型クラウ�
 
 Mac M1 上でのICPのプロジェクト作成、Local server の起動、Deployまでを実行します。
 
-![svg](./contents/web3-icp-quickstart/icp.drawio.svg)
+![png](./contents/web3-icp-quickstart/icp.drawio.png)
 
 ### dfx のインストール
 
