@@ -90,6 +90,8 @@ cargo build --release --target wasm32-unknown-unknown --package testproj02_updat
 ```
 
 
+Candid は、ICP で実行されているキャニスターと対話するためのインターフェース記述言語 (IDL) です。Candid ファイルは、キャニスターが定義する各関数の名前、パラメーター、結果形式、データ型など、キャニスターのインターフェースの言語に依存しない記述を提供します。 プロジェクトに Candid ファイルを追加することで、データが Rust の定義から適切に変換され、ICP で安全に実行されるようにすることができます。
+
 Local server へDeployします。
 
 
