@@ -105,6 +105,18 @@ dfx deploy
 ![](./contents/web3-icp-quickstart-update/2025-01-03%2013.30.06.png)
 
 
+このようなコマンドでも確認可能です。
+
+```
+% dfx canister call testproj02_update_canister_backend greet everyone
+("Hello, everyone!")
+```
+
+```
+% dfx canister call testproj02_update_canister_backend world everyone
+("World, everyone!")
+```
+
 ref.
 
 https://internetcomputer.org/docs/current/developer-docs/backend/rust/generating-candid
