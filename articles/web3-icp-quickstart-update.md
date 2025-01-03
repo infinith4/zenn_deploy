@@ -103,3 +103,7 @@ dfx deploy
 ![](./contents/web3-icp-quickstart-update/2025-01-03%2013.30.06.png)
 
 
+ref.
+
+https://internetcomputer.org/docs/current/developer-docs/backend/rust/generating-candid
+
