@@ -93,8 +93,14 @@ Canister は以下の言語で開発できます。
 - EVM for Solidity
 - C++
 
-Canister はフロントエンド, バックエンド の機能を提供可能ですが、それぞれでファイルを分割する必要があります。
 
 https://www.icp-japan.org/post/webassembly-on-the-internet-computer
 
 32-bit Wasm の4GB 
+
+
+チェーンキー暗号技術: 分散ノードが秘密鍵を分割管理し、BitcoinやEthereumとも安全に連携できる
+
+逆ガスモデル（Cycles）: ガス代をユーザーではなく、開発者やサービス提供者が負担するため、ユーザーの利用ハードルが低い
+
+
