@@ -28,6 +28,24 @@ IC (Internet Computer) のネットワークは、許可のない分散型ガバ
 - DeFi (Decentralized Finance)
 - Decentralized AI (DeAI)
 
+### 活用事例
+
+以下はIC (Internet Computer) 上で動作するアプリケーションです。
+
+#### DSCVR (分散型 掲示板) 
+
+[DSCVR (分散型 掲示板) ](https://dscvr.one/) 
+
+
+#### Distrikt (分散型 SNS) 
+
+[Distrikt (分散型 SNS) ](https://distrikt.app/) 
+
+#### Dmail
+
+[Dmail (分散型 メール) ](https://dmail.ai/)
+
+
 ## IC (Internet Computer) の特徴
 
 IC (Internet Computer) の特徴として以下が挙げられます。
@@ -36,6 +54,7 @@ IC (Internet Computer) の特徴として以下が挙げられます。
 - ガス代（インフラ費用）が安い
 - スケーラビリティが可能
 - 従来のweb3 での問題のUX体験が改善されている
+- WebAssembly(WASM)に対応しており、WASMでコードをバイナリ実行し、Webブラウザで3Dやゲーム等の高負荷な処理が可能
 
 ### レスポンス速度がはやい
 
@@ -44,6 +63,10 @@ IC (Internet Computer) の特徴として以下が挙げられます。
 ### ガス代（インフラ費用）が安い
 
 ### スケーラビリティが可能
+
+IC は複数サブネットで構成されるため、理論上は容量やトランザクション数の制限はありません。
+
+https://internetcomputer.org/how-it-works/scalability/
 
 ### 従来のweb3 での問題のUX体験が改善されている
 
