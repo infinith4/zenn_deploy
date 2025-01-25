@@ -19,6 +19,7 @@ IC (Internet Computer) のネットワークは、許可のない分散型ガバ
 
 ## IC (Internet Computer) の活用
 
+主に以下の分野ので活用がされている。
 
 - ソーシャルメディア
 - ゲーム
