@@ -72,10 +72,27 @@ https://internetcomputer.org/how-it-works/scalability/
 
 従来のweb3, ブロックチェーンを利用した技術だとwallet の導入や秘密鍵の管理が面倒ですが、IC (Internet Computer) では秘密鍵の管理が容易にできます。
 [Internet Identity（II）](https://internetcomputer.org/internet-identity) という技術が利用でき、IC上のdapp はIIによるユーザ認証を行うことができます。パスワードレスでPCやスマートフォンでの生体認証やYubiKeyなどのデバイスを利用したユーザー認証(WebAuthnに対応)が可能です。ユーザーが利用するデバイス上に秘密鍵が生成・保存され、生成された公開鍵とIdentity Anchor はII 上に保存されます。また、複数のデバイスでシームレスにdapp を利用できる仕組みになっています。
-
-https://identity.ic0.app/ からアカウントの発行が可能です。
-
+[Internet Identity（II）](https://identity.ic0.app/) からアカウントの発行が可能です。
 
 ### ネットワーク構成
 
 subnet
+
+
+## IC(Internet Computer) の構成
+
+### Canister
+
+Canister はIC　(Internet Computer) 上のスマートコントラクトです。
+IC　(Internet Computer) のプログラムモジュールとして[WebAssembly (Wasm)](https://en.wikipedia.org/wiki/WebAssembly) が採用されています。
+Canister は以下の言語で開発できます。
+- Motoko
+- Rust
+- Python
+- TypeScript
+- EVM for Solidity
+- C++
+
+Canister はフロントエンド, バックエンド の機能を提供可能ですが、それぞれでファイルを分割する必要があります。
+
+https://www.icp-japan.org/post/webassembly-on-the-internet-computer
