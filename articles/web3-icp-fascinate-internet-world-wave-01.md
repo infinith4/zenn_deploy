@@ -45,5 +45,8 @@ IC (Internet Computer) の特徴として以下が挙げられます。
 
 ### 従来のweb3 での問題のUX体験が改善されている
 
+従来のweb3, ブロックチェーンを利用した技術だとwallet の導入や秘密鍵の管理が面倒ですが、IC (Internet Computer) では秘密鍵の管理が容易にできます。
+[Internet Identity（II）](https://internetcomputer.org/internet-identity) という技術が利用でき、IC上のdapp はIIによるユーザ認証を行うことができます。パスワードレスでPCやスマートフォンでの生体認証やYubiKeyなどのデバイスを利用したユーザー認証(WebAuthnに対応)が可能です。ユーザーが利用するデバイス上に秘密鍵が生成・保存され、生成された公開鍵とIdentity Anchor はII 上に保存されます。また、複数のデバイスでシームレスにdapp を利用できる仕組みになっています。
 
-秘密鍵の管理が容易 [Internet Identity（II）](https://identity.ic0.app/)
+https://identity.ic0.app/ からアカウントの発行が可能です。
+
