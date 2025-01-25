@@ -52,3 +52,7 @@ IC (Internet Computer) の特徴として以下が挙げられます。
 
 https://identity.ic0.app/ からアカウントの発行が可能です。
 
+
+### ネットワーク構成
+
+subnet
