@@ -10,7 +10,7 @@ published: false # 公開設定（falseにすると下書き）
 
 ## IC (Internet Computer) の概要
 
-ICP (Internet Computer Protocol)は、DFINITY Foundation が開発した分散型クラウドコンピューティングプラットフォームの提供をするパブリック ブロックチェーン ネットワークです。
+IC (Internet Computer)は、DFINITY Foundation が開発した分散型クラウドコンピューティングプラットフォームの提供をするパブリック ブロックチェーン ネットワークです。
 
 IC (Internet Computer)は、既存の中央集権的なクラウドサービス(AWS, Azure, GCP など)や従来のインターネットを置き換える存在です。
 IC のビジョンは、ほぼ全てのアプリケーションがスマート コントラクトに置き換えられることです。このビジョンを実現するために、スマート コントラクトは従来のアプリケーションが稼働し、拡張できるように設計されています。
