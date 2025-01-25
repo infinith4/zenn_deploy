@@ -96,3 +96,5 @@ Canister は以下の言語で開発できます。
 Canister はフロントエンド, バックエンド の機能を提供可能ですが、それぞれでファイルを分割する必要があります。
 
 https://www.icp-japan.org/post/webassembly-on-the-internet-computer
+
+32-bit Wasm の4GB 
