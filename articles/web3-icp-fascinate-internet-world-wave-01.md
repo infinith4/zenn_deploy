@@ -19,12 +19,13 @@ IC (Internet Computer) のネットワークは、許可のない分散型ガバ
 
 ## IC (Internet Computer) の活用
 
-- DeAI
+
 - ソーシャルメディア
 - ゲーム
 - メタバース
-- DeFi
 - エンタープライズ向けシステム
+- DeFi (Decentralized Finance)
+- Decentralized AI (DeAI)
 
 ## IC (Internet Computer) の特徴
 
