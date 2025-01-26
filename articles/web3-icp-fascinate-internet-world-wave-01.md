@@ -8,6 +8,11 @@ published: false # 公開設定（falseにすると下書き）
 
 # IC (Internet Computer) による新しいインターネット世界
 
+IC (Internet Computer) は ブロックチェーンを用いた分散型クラウドであり、従来のweb2 の中央集権的なインターネットへの革新をもたらす技術です。
+web2 の世界と共存しつつも新しいインターネット世界を見せてくれることでしょう。
+
+IC (Internet Computer) の概念からロードマップまでをご紹介します。
+
 ## IC (Internet Computer) の概要
 
 IC (Internet Computer)は、DFINITY Foundation が開発した分散型クラウドコンピューティングプラットフォームの提供をするパブリック ブロックチェーン ネットワークです。
@@ -135,7 +140,11 @@ Ethereumなどで採用しているガス代の支払いモデルはユーザの
 
 IC はNetwork Nervous System （NNS）というDAO（Decentralized Autonomous Organization）のガバナンスにより実現されています。NNSでの投票によってICが維持されています。
 
-## アーキテクチャ
+## ICとそれを取り巻くエンティティの概念図
+
+![](/images/web3-icp-fascinate-internet-world-wave-01/icp.drawio-overview.png)
+
+
 
 ## ネットワーク構成
 
@@ -205,3 +214,10 @@ https://internetcomputer.org/roadmap
 - Developer Experience
     - サードパーティの機能を DFX に直接統合するためのプラグインを導入します。
     - より多くの改善されたチュートリアルにより、ICP エコシステムへの開発者のオンボーディングがより迅速に成功します。
+
+
+## まとめ
+
+インフラレイヤーからアプリケーション実行までをカバーし、これまでのweb3 の技術で課題となっているUXへの問題に取り組みユーザフレンドリーな体験を提供してくれることと思います。
+活用例としても技術進歩とともにAI活用などにより面白いものがたくさん出てくることと思いますのでぜひ皆さんでICPを盛り上げていきましょう。
+
