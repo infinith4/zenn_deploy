@@ -8,9 +8,6 @@ published: false # 公開設定（falseにすると下書き）
 
 # IC (Internet Computer) による新しいインターネット世界
 
-![](/images/web3-icp-fascinate-internet-world-wave-01/catch01.png)
-
-
 IC (Internet Computer) は ブロックチェーンを用いた分散型クラウドであり、従来のweb2 の中央集権的なインターネットへの革新をもたらす技術です。
 web2 の世界と共存しつつも新しいインターネット世界を見せてくれることでしょう。
 
