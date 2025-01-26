@@ -61,6 +61,15 @@ IC (Internet Computer) 上で動作するアプリケーションが紹介され
 
 [Onicai](https://www.onicai.com/) はLLMをIC上で実装するためのサービスです。[Onicai のX](https://x.com/onicaiHQ/status/1879211961088659974) によると 1.5 Billion のLLM パラメータを実行することができたとありましたが、WASM の制限もあるためまだ課題はあります。
 
+## IC (Internet Computer) とそれを取り巻くエンティティの概念図
+
+IC (Internet Computer) とそれを取り巻くエンティティの概念図は以下のようになります。
+IC 内部はもっと詳細な技術が利用されていますが、ここでは簡略化しています。
+IC に対するシステム運用の方針をNNSで決定し、Canisterの運用費としてCanister運用者・所有者は手数料を支払います。Canisterによる収益をCanister運用者・所有者はエンドユーザから収益を得ます。
+データセンター自体は運用手数料を取得します。
+
+![](/images/web3-icp-fascinate-internet-world-wave-01/icp.drawio-overview.png)
+
 ## IC (Internet Computer) の特徴
 
 IC (Internet Computer) の特徴として以下が挙げられます。
@@ -139,11 +148,6 @@ Ethereumなどで採用しているガス代の支払いモデルはユーザの
 ### Network Nervous System
 
 IC はNetwork Nervous System （NNS）というDAO（Decentralized Autonomous Organization）のガバナンスにより実現されています。NNSでの投票によってICが維持されています。
-
-## ICとそれを取り巻くエンティティの概念図
-
-![](/images/web3-icp-fascinate-internet-world-wave-01/icp.drawio-overview.png)
-
 
 
 ## ネットワーク構成
