@@ -32,19 +32,17 @@ IC (Internet Computer) のネットワークは、許可のない分散型ガバ
 
 以下はIC (Internet Computer) 上で動作するアプリケーションです。
 
-#### DSCVR (分散型 掲示板) 
+### DSCVR (分散型 掲示板)
 
-[DSCVR (分散型 掲示板) ](https://dscvr.one/) 
+[DSCVR (分散型 掲示板)](https://dscvr.one/)
 
+### Distrikt (分散型 SNS)
 
-#### Distrikt (分散型 SNS) 
+[Distrikt (分散型 SNS)](https://distrikt.app/)
 
-[Distrikt (分散型 SNS) ](https://distrikt.app/) 
+### Dmail
 
-#### Dmail
-
-[Dmail (分散型 メール) ](https://dmail.ai/)
-
+[Dmail (分散型 メール)](https://dmail.ai/)
 
 ## IC (Internet Computer) の特徴
 
@@ -54,13 +52,14 @@ IC (Internet Computer) の特徴として以下が挙げられます。
 - ガス代（インフラ費用）が安い
 - スケーラビリティが可能
 - 従来のweb3 での問題のUX体験が改善されている
-- WebAssembly(WASM)に対応しており、WASMでコードをバイナリ実行し、Webブラウザで3Dやゲーム等の高負荷な処理が可能
 
-### レスポンス速度がはやい
+### レスポンス速度が速い
 
 [2024年12月時点での記事](https://www.icp-japan.org/post/icp-world-tps)によると高速のブロックチェーンの処理速度が記録されているため、既存のクラウドでのアプリケーションと引けを取らないクラウド基盤を提供できます。
 
-### ガス代（インフラ費用）が安い
+### ガス代が安い
+
+ [L1 での各ブロックチェーンの比較](https://wiki.internetcomputer.org/wiki/L1_comparison)において ICP のガス代のコストは最も安い結果が示されています。
 
 ### スケーラビリティが可能
 
@@ -78,14 +77,18 @@ https://internetcomputer.org/how-it-works/scalability/
 
 subnet
 
-
 ## IC(Internet Computer) の構成
 
 ### Canister
 
-Canister はIC　(Internet Computer) 上のスマートコントラクトです。
-IC　(Internet Computer) のプログラムモジュールとして[WebAssembly (Wasm)](https://en.wikipedia.org/wiki/WebAssembly) が採用されています。
+Canister は永続的なデータを保存したり、ユーザーや他のキャニスターと通信するなどが可能な追加機能を備えた [WebAssembly (Wasm)](https://en.wikipedia.org/wiki/WebAssembly) プログラムです。
+
+バックエンドcanister はIC上のスマートコントラクトの役割を果たします。
+
+フロントエンドcanister はweb2でのフロントエンド技術がそのまま利用できます。
+
 Canister は以下の言語で開発できます。
+
 - Motoko
 - Rust
 - Python
@@ -93,14 +96,33 @@ Canister は以下の言語で開発できます。
 - EVM for Solidity
 - C++
 
+https://www.icp-japan.org/post/webassembly-on-the-internet-computerhttps://internetcomputer.org/docs/current/developer-docs/smart-contracts/overview/introduction
 
-https://www.icp-japan.org/post/webassembly-on-the-internet-computer
+32-bit Wasm の4GB
 
-32-bit Wasm の4GB 
+## Chain-Key Cryptography
+
+クライアントが canisterの呼び出しすると、トランザクションの結果はChain-key署名によって署名され、正しく生成されたことと改ざんされていないことを証明します。
+
+Chain-Key 暗号化により、以下が実現できます。
+
+- サブネット間での安全かつ効率的な通信
+- 認証されたレスポンス
+
+ICで利用する公開鍵は、外部ユーザーからの入力メッセージへの応答や、あるキャニスターから別のキャニスターへのメッセージなど、IC の出力を検証するために使用します。IC と他のブロックチェーンとの違いは他のブロックチェーンでは、ジェネシス ブロックからプロトコル全体を実行することによってのみ検証します。一方、IC では、単一のデジタル署名を検証するだけで検証できます。したがって、効率的な通信を実現する1つの重要な点です。
+
+これにより、BitcoinやEthereumとも安全に連携できるという特徴を持っています。
+
+https://internetcomputer.org/how-it-works/chain-key-technology
+
+https://internetcomputer.org/docs/current/references/glossary/#chain-key
 
 
-チェーンキー暗号技術: 分散ノードが秘密鍵を分割管理し、BitcoinやEthereumとも安全に連携できる
+## 逆ガスモデル（Cycles）:
 
-逆ガスモデル（Cycles）: ガス代をユーザーではなく、開発者やサービス提供者が負担するため、ユーザーの利用ハードルが低い
+Ethereumなどで採用しているガス代の支払いモデルはユーザの負担だが、IC(Internet Computer)では開発者やサービス提供者が負担するモデルを採用している。ユーザにとって利用障壁が低くなっています。
 
+### Network Nervous System
+
+IC はNetwork Nervous System （NNS）というDAO（Decentralized Autonomous Organization）により実現されています。
 
