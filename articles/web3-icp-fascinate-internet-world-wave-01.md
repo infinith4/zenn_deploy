@@ -19,7 +19,7 @@ IC (Internet Computer) のネットワークは、許可のない分散型ガバ
 
 ## IC (Internet Computer) の活用
 
-主に以下の分野ので活用がされている。
+主に以下の分野での活用がされています。
 
 - ソーシャルメディア
 - ゲーム
@@ -30,19 +30,31 @@ IC (Internet Computer) のネットワークは、許可のない分散型ガバ
 
 ### 活用事例
 
-以下はIC (Internet Computer) 上で動作するアプリケーションです。
+IC (Internet Computer) 上で動作するアプリケーションが紹介されています。
 
-### DSCVR (分散型 掲示板)
+[https://internetcomputer.org/ecosystem](https://internetcomputer.org/ecosystem)
 
-[DSCVR (分散型 掲示板)](https://dscvr.one/)
+ここでは主なものをピックアップしてご紹介します。
 
-### Distrikt (分散型 SNS)
+### DSCVR
 
-[Distrikt (分散型 SNS)](https://distrikt.app/)
+[DSCVR](https://dscvr.one/) は分散型掲示板のサービスを提供している。コメントを書き込むことで報酬が付与されるComment to Earn のような仕組みになっている。
+
+### Distrikt
+
+[Distrikt](https://distrikt.app/) は分散型 SNSであり、Xと使い勝手はほぼ同じサービスです。ユーザーは[Internet Identity（II）](https://identity.ic0.app/) での認証を行い、投稿や画像、いいねなどはブロックチェーン上に記録されるため、データはユーザ自身に所有権があります。
+
+### **OpenChat**
+
+完全オンチェーンのSNSであり、トークンの送金、ビデオ通話、チャットグループなどの機能があります。ユーザーは[Internet Identity（II）](https://identity.ic0.app/) での認証を行い、真正性が高いSNSを実現している。2024年11月時点で [1日あたりのアクティブユーザーは数は15,000人以上](https://www.icp-japan.org/post/openchat-ddau-15000)。
 
 ### Dmail
 
-[Dmail (分散型 メール)](https://dmail.ai/)
+[Dmail](https://dmail.ai/) は分散型 メールであり、従来のweb2 のメールサービス、Dropbox、Metamaskなどとの連携も可能で低コストでのメールサービスを実現しています。
+
+### Onicai
+
+[Onicai](https://www.onicai.com/) はLLMをIC上で実装するためのサービスです。[Onicai のX](https://x.com/onicaiHQ/status/1879211961088659974) によると 1.5 Billion のLLM パラメータを実行することができたとありましたが、WASM の制限もあるためまだ課題はあります。
 
 ## IC (Internet Computer) の特徴
 
@@ -65,17 +77,13 @@ IC (Internet Computer) の特徴として以下が挙げられます。
 
 IC は複数サブネットで構成されるため、理論上は容量やトランザクション数の制限はありません。
 
-https://internetcomputer.org/how-it-works/scalability/
+[https://internetcomputer.org/how-it-works/scalability/](https://internetcomputer.org/how-it-works/scalability/)
 
 ### 従来のweb3 での問題のUX体験が改善されている
 
 従来のweb3, ブロックチェーンを利用した技術だとwallet の導入や秘密鍵の管理が面倒ですが、IC (Internet Computer) では秘密鍵の管理が容易にできます。
 [Internet Identity（II）](https://internetcomputer.org/internet-identity) という技術が利用でき、IC上のdapp はIIによるユーザ認証を行うことができます。パスワードレスでPCやスマートフォンでの生体認証やYubiKeyなどのデバイスを利用したユーザー認証(WebAuthnに対応)が可能です。ユーザーが利用するデバイス上に秘密鍵が生成・保存され、生成された公開鍵とIdentity Anchor はII 上に保存されます。また、複数のデバイスでシームレスにdapp を利用できる仕組みになっています。
 [Internet Identity（II）](https://identity.ic0.app/) からアカウントの発行が可能です。
-
-### ネットワーク構成
-
-subnet
 
 ## IC(Internet Computer) の構成
 
@@ -96,11 +104,9 @@ Canister は以下の言語で開発できます。
 - EVM for Solidity
 - C++
 
-https://www.icp-japan.org/post/webassembly-on-the-internet-computerhttps://internetcomputer.org/docs/current/developer-docs/smart-contracts/overview/introduction
+[https://www.icp-japan.org/post/webassembly-on-the-internet-computer](https://www.icp-japan.org/post/webassembly-on-the-internet-computer)[https://internetcomputer.org/docs/current/developer-docs/smart-contracts/overview/introduction](https://internetcomputer.org/docs/current/developer-docs/smart-contracts/overview/introduction)
 
-32-bit Wasm の4GB
-
-## Chain-Key Cryptography
+### Chain-Key Cryptography
 
 クライアントが canisterの呼び出しすると、トランザクションの結果はChain-key署名によって署名され、正しく生成されたことと改ざんされていないことを証明します。
 
@@ -111,18 +117,91 @@ Chain-Key 暗号化により、以下が実現できます。
 
 ICで利用する公開鍵は、外部ユーザーからの入力メッセージへの応答や、あるキャニスターから別のキャニスターへのメッセージなど、IC の出力を検証するために使用します。IC と他のブロックチェーンとの違いは他のブロックチェーンでは、ジェネシス ブロックからプロトコル全体を実行することによってのみ検証します。一方、IC では、単一のデジタル署名を検証するだけで検証できます。したがって、効率的な通信を実現する1つの重要な点です。
 
-これにより、BitcoinやEthereumとも安全に連携できるという特徴を持っています。
-
 https://internetcomputer.org/how-it-works/chain-key-technology
 
 https://internetcomputer.org/docs/current/references/glossary/#chain-key
 
+これにより、BitcoinやEthereumとも安全に連携できる機能を備えています。詳細は以下に記載されています。
 
-## 逆ガスモデル（Cycles）:
+https://wiki.internetcomputer.org/wiki/Bitcoin_Integration
+
+https://internetcomputer.org/ethereum-integration
+
+### 逆ガスモデル（Cycles）:
 
 Ethereumなどで採用しているガス代の支払いモデルはユーザの負担だが、IC(Internet Computer)では開発者やサービス提供者が負担するモデルを採用している。ユーザにとって利用障壁が低くなっています。
 
 ### Network Nervous System
 
-IC はNetwork Nervous System （NNS）というDAO（Decentralized Autonomous Organization）により実現されています。
+IC はNetwork Nervous System （NNS）というDAO（Decentralized Autonomous Organization）のガバナンスにより実現されています。NNSでの投票によってICが維持されています。
 
+## アーキテクチャ
+
+## ネットワーク構成
+
+IC には複数のsubnet が存在し、subnet を追加することでスケーラビリティが実現されます。
+
+subnet は複数データセンターを跨るノードで構成されるネットワークです。ノードの運用者はnode provider と呼ばれます。subnet は13 台から40 台のノードにより構成されます。
+
+node provider は署名をすることで不正を働くと金銭的な損害を被るようなルールになっています。
+
+[ICP DASHBOARD](https://dashboard.internetcomputer.org/) でsubnet数を確認できます。
+
+https://internetcomputer.org/docs/current/developer-docs/getting-started/network-overview
+
+### subnet の種類
+
+[subnet の種類](https://internetcomputer.org/docs/current/references/subnets/subnet-types)には以下があります。
+
+- application subnet
+- system subnet
+- fiduciary subnet
+- European subnet
+
+**application subnet**
+
+application subnetは最も一般的なタイプのサブネットです。ほぼすべてのキャニスターはアプリケーション サブネット上で実行されます。
+
+**system subnet**
+
+ICの稼働を維持するために必要なサブネットのことです。NNS のシステムを稼働する際にも複数のsystem subnet が必要です。一般の開発者はsystem subnet へデプロイすることはできません。（cycles の支払いも発生しない）system subnet では呼び出しごとの命令制限や Web Assembly モジュールのサイズ制限がより寛容になっています。
+
+**fiduciary subnet**
+
+13 ノードより多いノードで構成されるサブネットです。13 ノードのサブネットで実行されるキャニスターと比較して、より多くのcycles が必要です。サイクル コストは、ノードの数に比例して増加します。fiduciary subnetは、13 ノードのサブネットが提供できるものよりもよりセキュリティレベルが高い必要がある DeFi アプリケーションをより安全に運用できるサービスを提供するために利用されます。
+
+**European subnet**
+
+European subnetは、ヨーロッパにあるノード マシンのみで構成されています。開発者は、GDPR に準拠したインフラストラクチャを必要とするアプリケーションを構築し、データ主権のニーズに合わせることができます。
+
+## ICP のロードマップ
+
+[ロードマップ](https://internetcomputer.org/roadmap)は 9 つのテーマに分かれています。
+
+https://www.icp-japan.org/post/internet-computer-loadmap
+
+https://internetcomputer.org/roadmap
+
+- Compute Platform
+    - レイテンシーの削減を行うことでUXを向上します。
+- Decentralized AI
+    - GPU ハードウェア アクセラレーションによるAIによる推論やデータセットのトレーニングが可能になる見込みです。
+    - 現状、32 ビットのWasm メモリ4GiB の制限があるため、従来のLLMの実行が困難である。64 ビットのWasmではるかに大きなアドレスが指定可能なメモリを備えた Wasm64 に移行することで開発者はメイン メモリに大規模なモデルをロードできるようになります。
+- Chain Fusion
+    - Bitcoin、Ethereum、その他の主要なブロックチェーンとの直接的な相互運用性（インターオペラビリティ）を可能とします。
+    - EVM RPC CanisterをリリースすることでICP のCanister から直接Ethereum と連携できるようにする。
+    - Chain-Key ECDSA機能のレイテンシーとスループットの向上を目指します。
+- Privacy
+    - 検証可能な暗号化閾値鍵導出（vetKeysという）を導入することで、ICP上のユーザデータを暗号化して、暗号化されていないデータがブロックチェーンに記録されないようにする仕組みにします。
+- Platform Decentralization
+    - node provider がノードのHealth Checkを独立してトリアージし、問題が発生した場合に是正措置を講じることができるnode provider 用の監視ソリューションの提供を行います。
+    - サブネットをレンタルし、サブネットのリソースを完全に制御できる仕組みを導入予定です。
+- Identity
+    - Internet Identity で検証可能な資格情報とアイデンティティ属性を導入することでアイデンティティ プロバイダーのビジネス モデルを構築します。
+- Digital Assets
+    - マルチチェーン カストディ ソリューション、ウォレットを構築することが可能です。認証にパスキーを使用し、シードフレーズやパスワードが不要でユーザフレンドリーでかつ安全性を確保できます。
+- Governance & Tokenomics
+    - リキッドデモクラシー(液体民主主義)「選挙権を他の専門知識がある人に託すことができる投票方式」と個別に投票する方式を導入し、ICPを稼働するための提案の決定方式をより分散化します。
+- Developer Experience
+    - サードパーティの機能を DFX に直接統合するためのプラグインを導入します。
+    - より多くの改善されたチュートリアルにより、ICP エコシステムへの開発者のオンボーディングがより迅速に成功します。
