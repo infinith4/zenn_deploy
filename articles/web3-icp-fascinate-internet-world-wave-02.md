@@ -1,5 +1,5 @@
 ---
-title: "IC (Internet Computer) による新しいインターネット世界" # 記事のタイトル
+title: "IC (Internet Computer) による新しいインターネット世界 10のアイディア" # 記事のタイトル
 emoji: "♾️" # アイキャッチとして使われる絵文字（1文字だけ）
 type: "tech" # tech: 技術記事 / idea: アイデア記事
 topics: ["web3", "ic", "internet computer", "icp", "internet computer protocol", "icp hackathon"] # タグ。["markdown", "rust", "aws"]のように指定する
