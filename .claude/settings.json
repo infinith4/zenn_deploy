@@ -11,7 +11,15 @@
       "WebFetch(domain:raw.githubusercontent.com)",
       "Bash(curl -s https://note.com/hiblocka/n/naca468c04b9e)",
       "Bash(curl -L \"https://assets.st-note.com/img/1773543256-NgT3fHcjLmhPixy6wVuQbaSK.png\" -o \"c:/Projects/github/infinith4/zenn_deploy/images/cli-tracker-dev-time-management/screenshot-01.png\")",
-      "Bash(curl -L \"https://assets.st-note.com/img/1773543301-6ABvx3OM9WlnUdPci0qVpsY8.png\" -o \"c:/Projects/github/infinith4/zenn_deploy/images/cli-tracker-dev-time-management/screenshot-02.png\")"
+      "Bash(curl -L \"https://assets.st-note.com/img/1773543301-6ABvx3OM9WlnUdPci0qVpsY8.png\" -o \"c:/Projects/github/infinith4/zenn_deploy/images/cli-tracker-dev-time-management/screenshot-02.png\")",
+      "Bash(curl -L \"https://infinith4.github.io/dev-clipor/01-01_ja.png\" -o \"c:/Projects/github/infinith4/zenn_deploy/articles/contents/windows-clipor-clipboard-manager/screenshot-01.png\")",
+      "Bash(curl -L \"https://infinith4.github.io/dev-clipor/clipor.svg\" -o \"c:/Projects/github/infinith4/zenn_deploy/articles/contents/windows-clipor-clipboard-manager/clipor.svg\")",
+      "Bash(curl -L -o \"clipor.svg\" \"https://infinith4.github.io/dev-clipor/clipor.svg\")",
+      "Bash(curl -L -o \"screenshot-ja.png\" \"https://infinith4.github.io/dev-clipor/01-01_ja.png\")",
+      "Bash(curl -L -o \"screenshot-en.png\" \"https://infinith4.github.io/dev-clipor/01-01_en.png\")"
+    ],
+    "additionalDirectories": [
+      "c:\\Projects\\github\\infinith4\\zenn_deploy\\images"
     ]
   }
 }
