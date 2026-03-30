@@ -16,7 +16,8 @@
       "Bash(curl -L \"https://infinith4.github.io/dev-clipor/clipor.svg\" -o \"c:/Projects/github/infinith4/zenn_deploy/articles/contents/windows-clipor-clipboard-manager/clipor.svg\")",
       "Bash(curl -L -o \"clipor.svg\" \"https://infinith4.github.io/dev-clipor/clipor.svg\")",
       "Bash(curl -L -o \"screenshot-ja.png\" \"https://infinith4.github.io/dev-clipor/01-01_ja.png\")",
-      "Bash(curl -L -o \"screenshot-en.png\" \"https://infinith4.github.io/dev-clipor/01-01_en.png\")"
+      "Bash(curl -L -o \"screenshot-en.png\" \"https://infinith4.github.io/dev-clipor/01-01_en.png\")",
+      "WebFetch(domain:zenn.dev)"
     ],
     "additionalDirectories": [
       "c:\\Projects\\github\\infinith4\\zenn_deploy\\images"

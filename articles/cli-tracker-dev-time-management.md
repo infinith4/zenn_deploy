@@ -54,7 +54,7 @@ trc report --period week
 trc report --period month --project myapp
 ```
 
-![trc report --period month](./contents/cli-tracker-dev-time-management/screenshot-01.png)
+![trc report --period month](/images/cli-tracker-dev-time-management/screenshot-01.png)
 
 ### ポモドーロタイマー
 
@@ -72,7 +72,7 @@ trc report --period month --project myapp
 trc ui
 ```
 
-![trc ui - Interactive Dashboard](./contents/cli-tracker-dev-time-management/screenshot-02.png)
+![trc ui - Interactive Dashboard](/images/cli-tracker-dev-time-management/screenshot-02.png)
 
 ### データのエクスポート・インポート
 
