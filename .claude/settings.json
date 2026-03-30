@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:infinith4.github.io)",
+      "WebFetch(domain:apps.microsoft.com)",
+      "Bash(gh repo:*)",
+      "Bash(gh api:*)",
+      "WebFetch(domain:note.com)",
+      "WebFetch(domain:www.npmjs.com)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Bash(curl -s https://note.com/hiblocka/n/naca468c04b9e)",
+      "Bash(curl -L \"https://assets.st-note.com/img/1773543256-NgT3fHcjLmhPixy6wVuQbaSK.png\" -o \"c:/Projects/github/infinith4/zenn_deploy/images/cli-tracker-dev-time-management/screenshot-01.png\")",
+      "Bash(curl -L \"https://assets.st-note.com/img/1773543301-6ABvx3OM9WlnUdPci0qVpsY8.png\" -o \"c:/Projects/github/infinith4/zenn_deploy/images/cli-tracker-dev-time-management/screenshot-02.png\")"
+    ]
+  }
+}
